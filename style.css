@@ -1,0 +1,24 @@
+body {
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.topnav {
+  background-color: #F4EEA9;
+  overflow: hidden;
+}
+
+.active-link {
+  background-color: #06AED5;
+}
+
+.nav-item:hover {
+  background-color: #06AED5;
+}

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/2a70c1872e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title></title>
+
+    <style>
+      body {
+        margin: 0;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      }
+
+      .sidebar {
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        background-color: #f1f1f1;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+      }
+
+      .sidebar a {
+        display: block;
+        color: black;
+        padding: 16px;
+        text-decoration: none;
+      }
+
+      .sidebar a.active {
+        background-color: #04aa6d;
+        color: white;
+      }
+
+      .sidebar a:hover:not(.active) {
+        background-color: #555;
+        color: white;
+      }
+
+      div.content {
+        margin-left: 200px;
+        padding: 1px 16px;
+        height: 1000px;
+      }
+
+      @media screen and (max-width: 700px) {
+        .sidebar {
+          width: 100%;
+          height: auto;
+          position: relative;
+        }
+        .sidebar a {
+          float: left;
+        }
+        div.content {
+          margin-left: 0;
+        }
+      }
+
+      @media screen and (max-width: 400px) {
+        .sidebar a {
+          text-align: center;
+          float: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav
+    class="navbar navbar-expand-sm"
+    style="background-color: #283F3B"
+  >
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="logo.png" alt class="logo" />
+        <h1
+          class="fw-bold font-color text-warning d-inline-block align-text-top"
+        >
+          HTML
+        </h1>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav d-md-flex ms-auto">
+         
+          <li class="nav-item">
+            <a
+            href="index.html"
+            class="nav-link navigation-link fw-bold text-warning"
+            >HOME</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            href="About.html"
+            class="nav-link navigation-link fw-bold text-warning"
+            >About</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            href="Tutorials.html"
+            class="nav-link navigation-link fw-bold text-warning"
+            >Tutorials</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            href="Forms.html"
+            class="nav-link navigation-link fw-bold text-warning"
+            >Forms</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            href="Graphics.html"
+            class="nav-link navigation-link fw-bold text-warning"
+            >Graphics</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            href="Media.html"
+            class="nav-link navigation-link fw-bold text-warning"
+            >Media</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            href="APIs.html"
+            class="nav-link navigation-link fw-bold text-warning"
+            >APIs</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            href="References.html"
+            class="nav-link navigation-link fw-bold text-warning"
+            >References</a
+          >
+        </li>
+        <li class="nav-item active-link">
+          <a
+            href="Login.html"
+            class="nav-link navigation-link fw-bold text-warning"
+            >Login</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+    <!--navbar end-->
+
+    <!--Login-->
+    <div class="col-md-10 px-5 pt-3">
+      <div class="container-fluid"></div>
+    <form action="/action_page.php">
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname"><br>
+      <input type="submit" value="Submit">
+    </form> 
+  </div>
+</div>
+
+  </body>
+</html>
