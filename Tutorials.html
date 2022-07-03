@@ -146,7 +146,31 @@
               </a>
             </li>
             <li class="nav-item w-100">
-              <a href="#history" class="nav-link"> HTML History </a>
+              <a href="#HTMLHistory" class="nav-link"> HTML History </a>
+            </li>
+            <li class="nav-item w-100">
+              <a href="#ThehrefAttribute" class="nav-link">The href Attribute</a>
+            </li>
+            <li class="nav-item w-100">
+              <a href="#ThesrcAttribute" class="nav-link">The src Attribute</a>
+            </li>
+            <li class="nav-item w-100">
+              <a href="#ThewidthandheightAttributes" class="nav-link">The width and height Attributes</a>
+            </li>
+            <li class="nav-item w-100">
+              <a href="#The alt Attribute" class="nav-link">The alt Attribute</a>
+            </li>
+            <li class="nav-item w-100">
+              <a href="#ThestyleAttribute" class="nav-link">The style Attribute</a>
+            </li>
+            <li class="nav-item w-100">
+              <a href="#ThelangAttribute" class="nav-link">The lang Attribute</a>
+            </li>
+            <li class="nav-item w-100">
+              <a href="#ThetitleAttribute" class="nav-link">The title Attribute</a>
+            </li>
+            <li class="nav-item w-100">
+              <a href="#ChapterSummary" class="nav-link">Chapter Summary</a>
             </li>
           </ul>
         </div>
@@ -167,6 +191,10 @@
               <li class="p-1">HTML consists of a series of elements.</li>
               <li class="p-1">
                 HTML elements tell the browser how to display the content.
+              </li>
+              <li class="p-1">
+                HTML elements label pieces of content such as "this is a
+                heading", "this is a paragraph", "this is a link", etc.
               </li>
               <li class="p-1">
                 HTML elements label pieces of content such as "this is a
@@ -245,7 +273,7 @@
             </p>
           </div>
           <hr />
-          <div id="history">
+          <div id="HTMLHistory">
             <h4 class="p-1">HTML History</h4>
             <ul>
               <li class="p-1">
@@ -255,8 +283,117 @@
             </ul>
             <img src="htmlHistory.jpeg" alt="imageheading" class="w-50" />
             <p>This tutorial follows the latest HTML5 standard.</p>
+             <hr/>
+             <div>
+              <div id="HTML Attributes">
+             <h3><strong>HTML Attributes</strong></h3>
+             <p>HTML attributes provide additional information about HTML elements.</p>
+             <ul>
+              <li>All HTML elements can have attributes</li>
+              <li>Attributes provide additional information about elements.</li>
+              <li>Attributes are always specified in the start tag</li>
+              <li>Attributes usually come in name/value pairs like: name="value"</li>
+            </ul>
+        </div>
+            </div>
+            <hr/>
+            <div id="ThehrefAttribute">
+            <h4>The href Attribute</h4>
+            <p>The <a> tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to:</p>
+            <hr/>
+            <h5>Example</h5>
+            <u><p>&lt;a href="https://www.w3schools.com"&gt;Visit W3Schools&lt;/a&gt;</p></u>
+            <p>You will learn more about links in our <u>HTML Links chapter</u>.</p>
           </div>
-          <hr />
+        </hr>
+        <diV>
+           <hr/>
+          <div id="ThesrcAttribute">
+           <h4>The src Attribute</h4>
+           <p>The&lt;img&lt; tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed:</p>
+           <h5>&lt;img src="img_girl.jpg"&gt; </h5>
+        </diV>
+        <div>
+           <p>There are two ways to specify the URL in the src attribute:</p>
+           <ol>
+            <li> Absolute URL - Links to an external image that is hosted on another website. Example: src="https://www.w3schools.com/images/img_girl.jpg"</ol>
+           </ul>
+           <p><strong>Notes:</strong> External images might be under copyright. If you do not get permission to use it, you may be in violation of copyright laws. In addition, you cannot control external images; it can suddenly be removed or changed.</p>
+           <li>Relative URL - Links to an image that is hosted within the website. Here, the URL does not include the domain name. If the URL begins without a slash, it will be relative to the current page. Example: src="img_girl.jpg". If the URL begins with a slash, it will be relative to the domain. Example: src="/images/img_girl.jpg".</li>
+           <p>Tip: It is almost always best to use relative URLs. They will not break if you change domain.</p>
+          </div>
+          </diV>
+          <hr/>
+          <div id="ThewidthandheightAttributes">
+          <h4>The width and height Attributes</h4>
+          <p>The &lt;img&gt; tag should also contain the width and height attributes, which specifies the width and height of the image (in pixels):Example</p>
+          <h5>Example</h5>
+          <p>&lt;img src="img_girl.jpg" width="500" height="600"&gt;</p>
+        </div>
+          <hr/>
+          <div>
+          <div id="The alt Attribute">
+          <h4>The alt Attribute</h4>
+          <p>The required alt attribute for the &lt;img&lt; tag specifies an alternate text for an image, if the image for some</p>
+          <p>reason cannot be displayed. This can be due to slow connection, or an error in the src attribute, or if the user</p>
+          <p>uses a screen reader.</p>
+          <h5>Example</h5>
+          <p>&lt;img src="img_girl.jpg" alt="Girl with a jacket"&lt;</p>
+        </div>
+      </div>
+        <hr/>
+        <div>
+          <div id="ThestyleAttribute">
+          <h4>The style Attribute</h4>
+          <p>The <strong>style</strong> attribute is used to add styles to an element, such as color, font, size, and more.
+          <h5>Example</h5>
+          <p>&lt;p style="color:red;"&lt;This is a red paragraph.</p></p>
+          </p>
+        </div>
+        <hr/>
+      </div>
+        <div>
+          <div id="ThelangAttribute">
+          <h4>The lang Attribute</h4>
+          <p>You should always include the lang attribute inside the <html> tag, to declare the language of the Web page.</p>
+          <p>This is meant to assist search engines and browsers.</p>
+          <br/>
+          <p>The following example specifies English as the language:</p>
+          <br/>
+          <img src="http://dailyusefulentertaining.com/wp-content/uploads/2014/07/html_title_lang.jpg" alt="imgLangAttribute" class="w-60" />
+          <br/>
+          <p>Country codes can also be added to the language code in the lang attribute. So, the first two characters define</p>
+          <p>the language of the HTML page, and the last two characters define the country.</p>
+          <hr/>    
+          </div>    
+        </div>
+        <div>
+           <div id="ThetitleAttribute">
+          <h4>The title Attribute</h4>
+          <p>The title attribute defines some extra information about an element.</p>
+          <p>The value of the title attribute will be displayed as a tooltip when you mouse over the element.</p>
+          <h5>Example</h5>
+          <p>&lt;p title="I'm a tooltip"&gt;This is a paragraph.&lt;/p&gt;</p>
+          <br/>
+          <img src="https://i.ytimg.com/vi/kQ-mnyX-fhg/hqdefault.jpg" alt="imgtitleAttribute" class="w-60" />
+        </div>
+      </div>
+       <hr/>
+       <div id="ChapterSummary"></div>
+       <h4>Chapter Summary</h4>
+        <br/>
+        <ul>
+          <li>All HTML elements can have attributes</li>
+          <li>The href attribute of <a> specifies the URL of the page the link goes to</li>
+          <li>The src attribute of <img> specifies the path to the image to be displayed</li>
+          <li>The width and height attributes of <img> provide size information for images</li>
+          <li>The alt attribute of <img> provides an alternate text for an image</li>
+          <li>The style attribute is used to add styles to an element, such as color, font, size, and more</li>
+          <li>The lang attribute of the <html> tag declares the language of the Web page</li>
+          <li>The title attribute defines some extra information about an element</li>
+        </ul>
+          <hr>
+          </div>
           <br />
         </div>
       </div>
